@@ -14,8 +14,10 @@
         <p>E-mail</p>
         <input type="email" asp-for="NewsLetter.Email" />
         <span asp-validation-for="NewsLetter.Email"></span>
-        <p>Jag godkänner GDPR</p>
-        <input type="checkbox" asp-for="NewsLetter.approvesGDPR" />
+        <div>
+            <span>Jag godkänner GDPR</span>
+            <input type="checkbox" asp-for="NewsLetter.approvesGDPR" />
+        </div>
         <span asp-validation-for="NewsLetter.approvesGDPR"></span>
         <button type="submit">Prenumerera på nyhetsbrev</button>
     </form>
