@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsLetter OEM", "NewsLetter OEM\NewsLetter OEM.csproj", "{6484A02D-58C8-440F-9DCE-4DCF108129D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsLetter OEM", "NewsLetter OEM\NewsLetter OEM.csproj", "{6484A02D-58C8-440F-9DCE-4DCF108129D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsLetter OEM.models", "NewsLetter OEM.models\NewsLetter OEM.models.csproj", "{0AF101B2-0378-4B17-A683-6E63F1816105}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsLetter OEM.data-access", "NewsLetter OEM.data-access\NewsLetter OEM.data-access.csproj", "{1288276B-0A11-4BC0-A288-BDA466943E16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6484A02D-58C8-440F-9DCE-4DCF108129D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6484A02D-58C8-440F-9DCE-4DCF108129D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6484A02D-58C8-440F-9DCE-4DCF108129D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF101B2-0378-4B17-A683-6E63F1816105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF101B2-0378-4B17-A683-6E63F1816105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF101B2-0378-4B17-A683-6E63F1816105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF101B2-0378-4B17-A683-6E63F1816105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1288276B-0A11-4BC0-A288-BDA466943E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1288276B-0A11-4BC0-A288-BDA466943E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1288276B-0A11-4BC0-A288-BDA466943E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1288276B-0A11-4BC0-A288-BDA466943E16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
